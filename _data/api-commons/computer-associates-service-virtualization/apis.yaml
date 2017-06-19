@@ -1,0 +1,20 @@
+name: Computer Associates Service Virtualization
+description: A service mocking framework for rapid development. Create and manage
+  a virtual API that simulates the behavior of the components required to exercise
+  your application under test.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ca_simpleapi_creation_223.png
+tags:
+- Virtualization
+created: "2016-12-23"
+modified: "2016-12-23"
+url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/computer-associates-service-virtualization/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://vapi.ca.com
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

@@ -1,0 +1,25 @@
+name: nomossoftware
+description: 'Onboarding new customers, and rolling out new services and products
+  to existing customers, often involves integrating the customers IT systems via the
+  organisation''s APIs and XML channels. Customer portals from Nomos make this process
+  smoother by providing an interactive means for customers to understand and uncover
+  the business policies that they must comply with. The portals are also used to troubleshoot
+  problems when automated requests from customers fail. '
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nomos-software-logo.png
+tags:
+- Virtualization
+created: "2016-12-23"
+modified: "2016-12-23"
+url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/nomossoftware/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://nomos-software.com/resources/blog
+- type: x-website
+  url: http://nomos-software.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

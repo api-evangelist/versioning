@@ -1,0 +1,321 @@
+- slug: restcase
+  name: RestCase
+  description: >-
+    RestCase focuses on the REST API development cycle and enhances team
+    collaboration, reduces development time, improves testing and increases
+    overall product quality.
+  url: 'http://www.restcase.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/RestCaseApi'
+  blog: 'http://blog.restcase.com/'
+  blog_rss: 'http://blog.restcase.com/rss/'
+  github: 'https://github.com/restcase'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restcase_logo.png
+  tags: 'Virtualization,Testing'
+- slug: nomossoftware
+  name: nomossoftware
+  description: >-
+    Onboarding new customers, and rolling out new services and products to
+    existing customers, often involves integrating the customers IT systems via
+    the organisation's APIs and XML channels. Customer portals from Nomos make
+    this process smoother by providing an interactive means for customers to
+    understand and uncover the business policies that they must comply with. The
+    portals are also used to troubleshoot problems when automated requests from
+    customers fail.&nbsp;
+  url: 'http://nomos-software.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/nomossoftware'
+  blog: 'http://nomos-software.com/resources/blog'
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nomos-software-logo.png
+  tags: 'Virtualization,API LIfeycle'
+- slug: computer-associates-service-virtualization
+  name: Computer Associates Service Virtualization
+  description: >-
+    A service mocking framework for rapid development. Create and manage a
+    virtual API that simulates the behavior of the components required to
+    exercise your application under test.
+  url: 'https://vapi.ca.com'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ca_simpleapi_creation_223.png
+  tags: Virtualization
+- slug: mockable.io
+  name: mockable.io
+  description: >-
+    Mockable is a simple configurable service to mock out RESTful API or SOAP
+    web-services. This online service allows you to quickly define REST API or
+    SOAP endpoints and have them return JSON or XML data.
+  url: 'https://www.mockable.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/mockableio'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mockable-io.jpeg
+  tags: Virtualization
+- slug: mockaroo
+  name: Mockaroo
+  description: >-
+    Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV,
+    JSON, SQL, and Excel formats. &nbsp;If you're developing an application,
+    you'll want to make sure you're testing it under conditions that closely
+    simulate a production environment. In production, you'll have an army of
+    users banging away at your app and filling your database with data, which
+    puts stress on your code. If you're hand-entering data into a test
+    environment one record at a time using the UI, you're never going to build
+    up the volume and variety of data that your app will accumulate in a few
+    days in production. Worse, the data you enter will be biased towards your
+    own usage patterns and won't match real-world usage, leaving important bugs
+    undiscovered.
+  url: 'https://mockaroo.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/mockaroodev'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mockaroo-logo.png
+  tags: Virtualization
+- slug: mockserver
+  name: MockServer
+  description: >-
+    Easy mocking of any system you integrate with via HTTP or HTTPS. MockServer
+    can be used for mocking any system you integrate with via HTTP or HTTPS.
+    MockServer Proxy can be used for transparently recording all requests sent
+    by a system (i.e. an application or set of applications).
+  url: 'http://www.mock-server.com/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mockserver-logo.png
+  tags: Virtualization
+- slug: monkeypod
+  name: Monkeypod
+  description: >-
+    Monkeypod is a cloud-based API design and virtualization tool. It allows
+    developers to collaboratively create HTTP APIs using an intuitive
+    browser-based interface, automatically generating documentation and an
+    in-browser API sandbox. Monkeypod further enables rapid iteration and
+    testing by creating a virtual version of the API that developers can make
+    calls against immediately.
+  url: 'https://monkeypod.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/Monkeypodio'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/monkey-pod-logo.png
+  tags: Virtualization
+- slug: sandbox
+  name: Sandbox
+  description: >-
+    Quick and easy mock RESTful API and SOAP webservices. Generate from API
+    definitions, instant deploy, collaborative build, and debugging tools for
+    integration. Remove testing roadblocks. Close the gap that exists with
+    incomplete or capacity constrained test environments. Eliminate fees for
+    accessing third-party systems. Give QAs access to the exact test environment
+    they need without delays. Streamline test environment provisioning time and
+    costs.
+  url: 'https://getsandbox.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/_getsandbox'
+  blog: 'http://blog.getsandbox.com/'
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/get-sandbox-logo.png
+  tags: Virtualization
+- slug: wiremock
+  name: WireMock
+  description: >-
+    WireMock is a flexible library for stubbing and mocking web services. Unlike
+    general purpose mocking tools it works by creating an actual HTTP server
+    that your code under test can connect to as it would a real web service. It
+    supports HTTP response stubbing, request verification, proxy/intercept,
+    record/playback of stubs and fault injection, and can be used from within a
+    unit test or deployed into a test environment. Although it&rsquo;s written
+    in Java, there&rsquo;s also a JSON API so you can use it with pretty much
+    any language out there.
+  url: 'http://wiremock.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wiremock-logo.png
+  tags: Virtualization
+- slug: parasoft
+  name: Parasoft
+  description: >-
+    Parasoft researches and develops software solutions that help organizations
+    deliver defect-free software efficiently. By integrating&nbsp;development
+    testing,&nbsp;API testing, and&nbsp;service virtualization, we reduce the
+    time, effort, and cost of delivering secure, reliable, and compliant
+    software. Parasoft's enterprise and embedded development solutions are the
+    industry's most comprehensive&mdash;including static analysis, unit testing,
+    requirements traceability, coverage analysis, functional and load testing,
+    dev/test environment management, and more.
+  url: 'http://www.parasoft.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/Parasoft'
+  blog: 'http://blog.parasoft.com/'
+  blog_rss: 'http://www.parasoft.com/rss/'
+  github: 'https://github.com/parasoft'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/parasoft-logo.png
+  tags: 'Testing,Virtualization'
+- slug: vrest
+  name: vREST
+  description: 'Simplify, Automate and Speed-up REST API Testing'
+  url: 'http://vrest.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vrsest-logo.png
+  tags: 'Testing,Virtualization'
+- slug: crosscheck-networks
+  name: Crosscheck Networks
+  description: >-
+    Crosscheck Networks is the global leader in API Testing, Simulation, and
+    Gateway technologies with product deployments in over 50,000 customer
+    networks worldwide. Comprehensive API testing includes functional
+    automation, performance, compliance and security testing with patented
+    dynamic mutation technology.
+  url: 'http://www.crosschecknet.com/'
+  short_url: ''
+  twitter: ''
+  blog: 'http://soa-testing.blogspot.com/'
+  blog_rss: 'http://feeds.feedburner.com/soatesting?format=xml'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png
+  tags: 'Testing,Security,Virtualization,API Gateways'
+- slug: smartbear-software
+  name: SmartBear Software
+  description: >-
+    SmartBear Software provides tools for over 100,000 software professionals to
+    build, test, and monitor some of the best software applications and websites
+    anywhere on the desktop, mobile and in the cloud.
+  url: 'http://smartbear.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/smartbear'
+  blog: 'http://blog.smartbear.com/'
+  blog_rss: 'http://feeds.feedburner.com/smartbear'
+  github: 'https://github.com/SmartBear'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+  tags: 'Security,Testing,Monitoring,Virtualization,Performance,API LIfeycle'
+- slug: mocky
+  name: Mocky
+  description: Mock your HTTP responses to test your REST API.
+  url: 'http://www.mocky.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mocky-logo.png
+  tags: 'Sandbox,Virtualization'
+- slug: firebase
+  name: Firebase
+  description: >-
+    Firebase is a mobile platform that helps you
+    quickly&nbsp;develop&nbsp;high-quality apps,&nbsp;grow&nbsp;your user base,
+    and&nbsp;earn&nbsp;more money. Firebase is made up of complementary features
+    that you can mix-and-match to fit your needs.
+  url: 'https://firebase.google.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/firebase'
+  blog: 'https://firebase.googleblog.com/'
+  blog_rss: 'http://firebase.googleblog.com/feeds/posts/default?alt=rss'
+  github: 'https://github.com/firebase'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
+  tags: >-
+    Real Time,API LIfeycle,Database,Command Line Interface,Links,Google
+    APIs,Security,Testing,Virtualization
+- slug: uninett-httpjs
+  name: UNINETT HTTPjs
+  description: >-
+    Server API Mock-Ups in your browser. Mock an API in your browser, to
+    prototype a backend or test your API client. Aids very rapid development of
+    mock-up server APIs to improve the quality of your HTTP API clients.
+  url: 'http://httpjs.net/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HTTPjs-UNINETT.png
+  tags: 'Mocking,Virtualization'
+- slug: apiary
+  name: Apiary
+  description: >-
+    Apiary.io is a hosted suite of tools that help companies build web APIs
+    quickly, test and monitor them easily and document them effortlessly. It
+    provides API owners with necessary infrastructure and helps them build
+    relationship with their users. Core of the self-service solution is API
+    Blueprint, an efficient format for describing an API, aspiring to define new
+    gold standard for REST API development. The product uses this Blueprint to
+    streamline adoption of new services and simplify integration to other
+    systems.
+  url: 'https://apiary.io'
+  short_url: ''
+  twitter: 'https://twitter.com/apiaryio'
+  blog: 'http://blog.apiary.io/'
+  blog_rss: 'http://blog.apiary.io/feed.xml'
+  github: 'https://github.com/apiaryio'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiary-logo.png
+  tags: 'Design,Virtualization,Virtualization,API LIfeycle,Documentation,Studio'
+- slug: apigee-api-studio
+  name: Apigee API Studio
+  description: >-
+    Apigee launched their API Studio out of their earlier Apigee-127 product,
+    their work on the Swagger platform and editor, and their BaaS offering. The
+    new studio opens up the ability for developers to design, mock, test and
+    share via their online open source based platform.
+  url: 'http://apistudio.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-studio-logo.png
+  tags: 'Design,Testing,Virtualization,Clients,Studio'
+- slug: apimint
+  name: Apimint
+  description: >-
+    APIMINT is an API lifecycle management tool. With our design first approach,
+    all stake holders get a platform to collaborate and give feedback on API
+    design and structure. We make sure your all your teams can easily agree and
+    understand your APIs.
+  url: 'https://www.apimint.com'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apimint_-_Rapidly_Prototype_APIs.png
+  tags: 'Design,Deployment,Virtualization,Studio,Cloud'

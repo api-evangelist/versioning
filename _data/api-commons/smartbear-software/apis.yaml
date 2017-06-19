@@ -1,0 +1,28 @@
+name: SmartBear Software
+description: SmartBear Software provides tools for over 100,000 software professionals
+  to build, test, and monitor some of the best software applications and websites
+  anywhere on the desktop, mobile and in the cloud.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
+tags:
+- Virtualization
+created: "2016-12-23"
+modified: "2016-12-23"
+url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/smartbear-software/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://blog.smartbear.com/
+- type: x-blog-rss-feed
+  url: http://feeds.feedburner.com/smartbear
+- type: x-github
+  url: https://github.com/SmartBear
+- type: x-twitter
+  url: https://twitter.com/smartbear
+- type: x-website
+  url: http://smartbear.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

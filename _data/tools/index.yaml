@@ -1,0 +1,187 @@
+- slug: duckrails
+  name: duckrails
+  description: A development tool to quickly & dynamically mock API endpoints
+  url: 'https://github.com/iridakos/duckrails'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mockapi
+  name: mock-api
+  description: A json-api-mock framework for Android
+  url: 'https://github.com/shanbay/mock-api'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: apimock
+  name: apimock
+  description: A mock API server.
+  url: 'https://github.com/pierreprinetti/apimock'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mimic
+  name: Mimic
+  description: An API mock service
+  url: 'https://github.com/rackerlabs/mimic'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mock5
+  name: Mock5
+  description: Create and manage API mocks with Sinatra
+  url: 'https://github.com/rwz/mock5'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,Sinatra'
+- slug: api-mock
+  name: API Mock
+  description: Creates a mock server based on an API Blueprint
+  url: 'https://github.com/localmed/api-mock/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Mock,API Blueprint,Virtualization'
+- slug: apimock
+  name: api-mock
+  description: Creates a mock server based on an API Blueprint
+  url: 'https://github.com/localmed/api-mock'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: dockerjsonserver
+  name: docker-json-server
+  description: 'JSON Server docker image, REST API mocking based on plain JSON'
+  url: 'https://github.com/clue/docker-json-server'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,Containers'
+- slug: hoverfly
+  name: hoverfly
+  description: >-
+    Lightweight service virtualization/API simulation tool for developers and
+    testers
+  url: 'https://github.com/SpectoLabs/hoverfly'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mockbin
+  name: Mockbin
+  description: 'Mock, Test & Track HTTP Requests and Responses.'
+  url: 'https://github.com/Mashape/mockbin'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mockery
+  name: mockery
+  description: >-
+    Mockery is a simple yet flexible PHP mock object framework for use in unit
+    testing with PHPUnit, PHPSpec or any other testing framework. Its core goal
+    is to offer a test double framework with a succint API capable of clearly
+    defining all possible object operations and interactions using a human
+    readable Domain Specific Language (DSL).
+  url: 'https://github.com/padraic/mockery'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,PHP'
+- slug: mockito
+  name: Mockito
+  description: Mocking framework for unit tests written in Java
+  url: 'https://github.com/mockito/mockito'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,Java'
+- slug: restjester
+  name: restjester
+  description: REST API mocking server
+  url: 'https://github.com/kswope/restjester'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,Mocking'
+- slug: mock-server
+  name: Mock Server
+  description: Simple mock server for REST API
+  url: 'https://github.com/tomashanacek/mock-server'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization
+- slug: mockserver
+  name: mock-server
+  description: Simple mock server for REST API
+  url: 'https://github.com/tomashanacek/mock-server'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Virtualization,Mocking'
+- slug: rap
+  name: RAP
+  description: >-
+    Web API management, free and open sourced, mock data generator, auto test,
+    made by Alibaba, using by 1000+ corporations!
+    Web接口管理工具，开源免费，接口自动化，MOCK数据自动生成，自动化测试，企业级管理。阿里妈妈MUX团队出品！阿里巴巴都在用！1000+公司的选择！一直被抄袭，从未被超越
+    :3
+  url: 'https://github.com/thx/RAP'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Virtualization

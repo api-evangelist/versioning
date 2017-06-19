@@ -1,0 +1,155 @@
+- building_block_id: mock
+  type: Virtualization
+  category: Core Virtualization
+  name: Mock
+  description: Creation of mock API interfaces that matches a specific API definition.
+  image: ''
+  tags: Virtualization
+- building_block_id: sandbox
+  type: Virtualization
+  category: Core Virtualization
+  name: Sandbox
+  description: Generation of a sandbox environment that matches a specific API definition.
+  image: ''
+  tags: Virtualization
+- building_block_id: simulator
+  type: Virtualization
+  category: Core Virtualization
+  name: Simulator
+  description: Creation of simulation environments from existing definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: record
+  type: Virtualization
+  category: Core Virtualization
+  name: Record
+  description: Recording the setup of a virtualization environment for use at later date.
+  image: ''
+  tags: Virtualization
+- building_block_id: playback
+  type: Virtualization
+  category: Core Virtualization
+  name: Playback
+  description: >-
+    Setup of a virtualized environment captured from recording of earlier
+    instance.
+  image: ''
+  tags: Virtualization
+- building_block_id: verification
+  type: Virtualization
+  category: Core Virtualization
+  name: Verification
+  description: >-
+    Verification that a virtualization environment exists and matches existing
+    definition.
+  image: ''
+  tags: Virtualization
+- building_block_id: port-forwarding
+  type: Virtualization
+  category: Core Virtualization
+  name: Port Forwarding
+  description: Forward of specific ports to a specific virtualized API instance.
+  image: ''
+  tags: Virtualization
+- building_block_id: ssl
+  type: Virtualization
+  category: Core Virtualization
+  name: SSL
+  description: Use of SSL when communicating with virtualized API instances.
+  image: ''
+  tags: Virtualization
+- building_block_id: templates
+  type: Virtualization
+  category: Data Virtualization
+  name: Templates
+  description: >-
+    Being able to create templates of data to be used when virtualized APIs are
+    setup.
+  image: ''
+  tags: Virtualization
+- building_block_id: dummy-data
+  type: Virtualization
+  category: Data Virtualization
+  name: Dummy Data
+  description: >-
+    Dummy data sets that can be imported individually or as collections into
+    virtualized APIs.
+  image: ''
+  tags: Virtualization
+- building_block_id: excel-data
+  type: Virtualization
+  category: Data Virtualization
+  name: Excel Data
+  description: >-
+    Import of data from Microsoft Excel spreadsheets or Google sheets into
+    virtualized APIs.
+  image: ''
+  tags: Virtualization
+- building_block_id: import-openapi-spec
+  type: Virtualization
+  category: Import / Export
+  name: Import OpenAPI Spec
+  description: >-
+    Allow for the creation of virtualized APIs using existing OpenAPI Spec
+    definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: import-raml
+  type: Virtualization
+  category: Import / Export
+  name: Import RAML
+  description: Allow for the creation of virtualized APIs using existing RAML definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: import-api-blueprint
+  type: Virtualization
+  category: Import / Export
+  name: Import API Blueprint
+  description: >-
+    Allow for the creation of virtualized APIs using existing API Blueprint
+    definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: import-wadl
+  type: Virtualization
+  category: Import / Export
+  name: Import WADL
+  description: Allow for the creation of virtualized APIs using existing WADL definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: import-postman
+  type: Virtualization
+  category: Import / Export
+  name: Import Postman
+  description: >-
+    Allow for the creation of virtualized APIs using existing Postman
+    definitions.
+  image: ''
+  tags: Virtualization
+- building_block_id: reporting
+  type: Virtualization
+  category: Other Elements
+  name: Reporting
+  description: >-
+    Providing reporting tools on virtualized instances, providing developers and
+    consumers with snapshots of activity.
+  image: ''
+  tags: Virtualization
+- building_block_id: analytics
+  type: Virtualization
+  category: Other Elements
+  name: Analytics
+  description: >-
+    Provide real-time, and other analytics that give details of what is
+    happening with virtualized APIs as they operate.
+  image: ''
+  tags: Virtualization
+- building_block_id: teams
+  type: Virtualization
+  category: Other Elements
+  name: Teams
+  description: >-
+    Provide team tooling, allowing multiple individuals to work together when
+    monitoring API virtualizations.
+  image: ''
+  tags: Virtualization
