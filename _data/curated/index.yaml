@@ -1,546 +1,4 @@
 ---
-- curated_id: 165e72e3e1330a043232b44cda7b9a09
-  item_date: "2012-05-06 11:03:03"
-  title: '59 New APIs: Intuit, StumbleUpon and FireText'
-  url: http://www.programmableweb.com/news/59-new-apis-intuit-stumbleupon-and-firetext/2012/05/06
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: 5ecc639fbf6c9a64864bf20c61a2b186
-  item_date: "2013-05-22 00:00:00"
-  title: Version 1.1 released
-  url: http://www.apiomat.com/blog/version-1-1-released/
-  domain: www.apiomat.com
-  image: ""
-- curated_id: 9e7c28c28e346edd741d0c590dbee938
-  item_date: "2013-05-23 00:00:00"
-  title: 'Were Discontinuing Bronto APIv3: Upgrade to APIv4'
-  url: http://bronto.com/product-blog/features/were-discontinuing-bronto-apiv3-upgrade-apiv4
-  domain: bronto.com
-  image: ""
-- curated_id: c488bed485b71ab1a4d4b878cc6c56e0
-  item_date: "2013-05-23 21:45:26"
-  title: AnyPresence | AnyPresence Launches 4th-Generation Mobile Backend-as-a-Service
-    Platform with Unparalleled Enterprise Capabilities
-  url: http://www.anypresence.com/press-release/AnyPresence_Launches_4th-Generation_Mobile_Backend_as_a_Service_Platform.php
-  domain: www.anypresence.com
-  image: ""
-- curated_id: 44cce0431b1077ad977a863f7fdb2b9e
-  item_date: "2013-06-04 00:00:00"
-  title: AssureSign Version 4.7 Production Release
-  url: http://www.assuresign.com/2013/06/assuresign-version-4-7-production-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: 214b670d2e822f8d590d4c59d90c036b
-  item_date: "2013-06-04 00:00:00"
-  title: Skype 4.8 for iPhone and iPad
-  url: http://blogs.skype.com/2013/06/04/skype-4-8-for-iphone-and-ipad/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 3c79ef425b42acf37633d32adc109930
-  item_date: "2013-06-17 00:00:00"
-  title: Announcing Titanium 3.1.1 Production Release
-  url: http://www.appcelerator.com/blog/2013/06/announcing-titanium-3-1-1-production-release/
-  domain: www.appcelerator.com
-  image: ""
-- curated_id: 215fdbe330253603347a68972eae6336
-  item_date: "2013-06-17 00:00:00"
-  title: JustWare 5.9 Release 10 is ready for your upgrade
-  url: http://newdawn.com/2013/06/17/justware-5-9-release-10-is-ready-for-your-upgrade/
-  domain: newdawn.com
-  image: ""
-- curated_id: d22b28c180581dfeb6f252771f3780d2
-  item_date: "2013-06-19 00:00:00"
-  title: MailChimp?s API, V2
-  url: http://blog.mailchimp.com/mailchimps-api-v2/
-  domain: blog.mailchimp.com
-  image: ""
-- curated_id: 26f9eec9dfa58878091b23b7056b1f44
-  item_date: "2013-06-24 00:00:00"
-  title: Introducing Datameer 3.0
-  url: http://www.datameer.com/blog/announcements/introducing-datameer-3-0.html
-  domain: www.datameer.com
-  image: ""
-- curated_id: 72f46659a05ce9a4cea7ee9c3ee53dbe
-  item_date: "2013-06-26 00:00:00"
-  title: CartoDB 2.1 is almost here
-  url: http://blog.cartodb.com/post/53932512302/cartodb-2-1-is-almost-here
-  domain: blog.cartodb.com
-  image: ""
-- curated_id: d2c051e96bb483ae7b4fc66529f2ac3e
-  item_date: "2013-06-28 00:00:00"
-  title: Skype 4.9 for iPhone and iPad
-  url: http://blogs.skype.com/2013/06/28/skype-for-iphone-4-9/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 719c78d800e575c773716cff58d9ed5e
-  item_date: "2013-07-06 00:00:00"
-  title: AuthorityLabs 3.0 is Here!
-  url: https://authoritylabs.com/blog/new-authoritylabs-interface/
-  domain: authoritylabs.com
-  image: ""
-- curated_id: 4a7d8b694ea86868b3132f99c7b2cb91
-  item_date: "2013-07-07 00:00:00"
-  title: iOS SDK 1.6
-  url: http://quickblox.com/blog/2013/07/ios-sdk-1-6/
-  domain: quickblox.com
-  image: ""
-- curated_id: e61106f2694a3368d334f5c06f691188
-  item_date: "2013-07-09 00:00:00"
-  title: Apsalar?s Demand-Side Platform Available and Out of Beta
-  url: https://apsalar.com/2013/07/apsalar-mobile-dsp/
-  domain: apsalar.com
-  image: ""
-- curated_id: c5ab22177db7217aa6001061b544cb9c
-  item_date: "2013-07-10 00:00:00"
-  title: 'Skype for Android 4.0 Update: We Heard You'
-  url: http://blogs.skype.com/2013/07/10/skype-for-android-4-0-update-we-heard-you/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 7482e2ce16224d306be0c1e8d1ecdbf9
-  item_date: "2013-07-29 00:00:00"
-  title: Versioning a REST API
-  url: http://www.baeldung.com/rest-versioning
-  domain: www.baeldung.com
-  image: ""
-- curated_id: 9cbeef4bbfc8b13416c42e357640e9eb
-  item_date: "2013-08-05 00:00:00"
-  title: Announcing Infochimps Cloud 3.2
-  url: http://blog.infochimps.com/2013/08/05/announcing-infochimps-cloud-3-2/
-  domain: blog.infochimps.com
-  image: ""
-- curated_id: 539c5d6424c61fc10b65834276a684b1
-  item_date: "2013-08-12 00:00:00"
-  title: Skype for iPhone and iPad, Version 4.10
-  url: http://blogs.skype.com/2013/08/12/skype-for-iphone-and-ipad-version-4-10/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: b6c287f30d7d7e3362770fa8562d1a0d
-  item_date: "2013-08-12 00:00:00"
-  title: 'Developer Plugin 1.2.2 Released: New WP-CLI Command'
-  url: https://developer.wordpress.com/2013/08/12/developer-plugin-1-2-2-released-new-wp-cli-command/
-  domain: developer.wordpress.com
-  image: ""
-- curated_id: ee52e31747000a6ae9c047fa83cb7528
-  item_date: "2013-08-19 00:00:00"
-  title: AssureSign Version 4.10 Production Release Announcement
-  url: https://www.assuresign.com/2013/08/assuresign-version-4-10-production-release-announcement/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: 2811beabc9a8f0ad0ce5513d10406ed6
-  item_date: "2013-08-19 00:00:00"
-  title: Introducing Kinvey iOS Library 1.19.0
-  url: http://www.kinvey.com/blog/3148/introducing-kinvey-ios-library-1-19-0
-  domain: www.kinvey.com
-  image: ""
-- curated_id: 2c1834602452fb89f87331a0973c84fd
-  item_date: "2013-08-19 00:00:00"
-  title: v1.2 arriving this Wednesday
-  url: https://wallab.ee/blog/2013/08/19/v1-2-arriving-this-wednesday/
-  domain: wallab.ee
-  image: ""
-- curated_id: 49f074cc3de900b6e158db3d68952f88
-  item_date: "2013-08-20 00:00:00"
-  title: The Splunk App for VMware v3.0 has arrived
-  url: http://blogs.splunk.com/2013/08/20/the-splunk-app-for-vmware-3-0-has-arrived/
-  domain: blogs.splunk.com
-  image: ""
-- curated_id: ec668c639687c6ff44f8429798ca0719
-  item_date: "2013-08-21 00:00:00"
-  title: Integrate secure faxing into your application with Sfax v3 API
-  url: https://www.scrypt.com/blog/integrate-secure-faxing-into-your-application-with-sfax-v3-api/
-  domain: www.scrypt.com
-  image: ""
-- curated_id: bcf078a6401e81044e9faac24f0a08d4
-  item_date: "2013-08-22 00:00:00"
-  title: iOS SDK v2.1.1 Released
-  url: https://blog.stackmob.com/2013/08/ios-sdk-v2-1-1-released/
-  domain: blog.stackmob.com
-  image: ""
-- curated_id: 73855260d1c0b48c8443db16c0f2a89b
-  item_date: "2013-08-26 00:00:00"
-  title: Layer 7 Mobile Access Gateway 2.0
-  url: http://www.apiacademy.co/blogs/layer-7-mobile-access-gateway-2-0/
-  domain: www.apiacademy.co
-  image: ""
-- curated_id: e138b88ee241eba6b16b5ec461a6a802
-  item_date: "2013-08-27 00:00:00"
-  title: Introducing SkyRocket 2.0 SDK!
-  url: http://blog.burstly.com/introducing-skyrocket-2-0-sdk/
-  domain: blog.burstly.com
-  image: ""
-- curated_id: f9d6edd40790705ecc53dd3ca2413d7f
-  item_date: "2013-09-18 00:00:00"
-  title: Skype for iPhone and iPad, version 4.12
-  url: http://blogs.skype.com/2013/09/18/skype-for-iphone-and-ipad-version-4-12/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 2821c214fe7b8cbd783ac4d79ab36639
-  item_date: "2013-09-27 00:00:00"
-  title: 'New Dev.Bronto Content: Migrate from API V3 to V4'
-  url: http://blogs.bronto.com/product/new-devbronto-content-migrate-api-v3-v4
-  domain: blogs.bronto.com
-  image: ""
-- curated_id: 1a87212a242237a0f414c3b94d6cd72f
-  item_date: "2013-10-01 00:00:00"
-  title: What?s New for Developers in Splunk 6
-  url: http://blogs.splunk.com/2013/10/01/whats-new-for-developers-in-splunk-6/
-  domain: blogs.splunk.com
-  image: ""
-- curated_id: 8324cea350ce50808de21f155b1245f7
-  item_date: "2013-10-01 00:00:00"
-  title: Passport for iOS v1.2 released
-  url: http://blog.app.net/2013/10/01/passport-for-ios-v1-2-released/
-  domain: blog.app.net
-  image: ""
-- curated_id: ad001491b0b4940d20ee0577454a4351
-  item_date: "2013-10-01 00:00:00"
-  title: Announcing the Release of Splunk Enterprise 6
-  url: http://blogs.splunk.com/2013/10/01/announcing-the-release-of-splunk-enterprise-6/
-  domain: blogs.splunk.com
-  image: ""
-- curated_id: b21d54a9a1c1013206bf0cdc7fc2664e
-  item_date: "2013-10-01 00:00:00"
-  title: Skype for Windows Phone 8 ? version 2.11
-  url: http://blogs.skype.com/2013/10/01/skype-for-windows-phone-8-version-2-11/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: fadc425d08d848a021ae20a4febad870
-  item_date: "2013-10-02 00:00:00"
-  title: Glympse Client API 2.0.41 is Live
-  url: http://developer.glympse.com/cms/post/2013/10/02/Glympse-Client-API-2041-is-Live1
-  domain: developer.glympse.com
-  image: ""
-- curated_id: 1db8af2e39fe846fa0f474f8c8b9e5e6
-  item_date: "2013-10-09 00:00:00"
-  title: iOS SDK v2.2.0 Released
-  url: https://blog.stackmob.com/2013/10/ios-sdk-v2-2-0-released/
-  domain: blog.stackmob.com
-  image: ""
-- curated_id: c94006cdf693973498d0651feea2b46c
-  item_date: "2013-10-14 00:00:00"
-  title: Puppet OpenStack Modules Release v2.2.0
-  url: https://puppet.com/blog/puppet-openstack-modules-release-v2-2-0
-  domain: puppet.com
-  image: ""
-- curated_id: ec45c7d62694e0650fde81455d367834
-  item_date: "2013-10-16 00:00:00"
-  title: AssureSign 4.14 Product Release
-  url: https://www.assuresign.com/2013/10/assuresign-4-14-product-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: 52630b2c4b20feda74c3da44646aec2b
-  item_date: "2013-10-24 00:00:00"
-  title: 'Announcing Jolicloud 2: A place to call home'
-  url: http://blog.jolicloud.com/2013/10/24/announcing-jolicloud-2-a-place-to-call-home/
-  domain: blog.jolicloud.com
-  image: ""
-- curated_id: c94de6e9cb6a282a221c6a22e7d55bfe
-  item_date: "2013-10-30 00:00:00"
-  title: What?s New with the View API
-  url: https://blog.box.com/blog/whats-new-with-the-view-api/
-  domain: blog.box.com
-  image: ""
-- curated_id: 03fa712a6e5d00c1225749213e1449a5
-  item_date: "2013-11-06 00:00:00"
-  title: Feature evolution and support for the Skype Desktop API
-  url: http://blogs.skype.com/2013/11/06/feature-evolution-and-support-for-the-skype-desktop-api/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 6986ad09b32871a140d37c110733bbf0
-  item_date: "2013-11-12 00:00:00"
-  title: Introducing our new EHR
-  url: http://www.practicefusion.com/blog/new-ehr-design-enhancements/
-  domain: www.practicefusion.com
-  image: ""
-- curated_id: 99c47e5d98cdcad5346992fb2a8dffea
-  item_date: "2013-11-12 00:00:00"
-  title: 'API 2.0: New function and enhanced usability'
-  url: https://blog.bitbucket.org/2013/11/12/api-2-0-new-function-and-enhanced-usability/
-  domain: blog.bitbucket.org
-  image: ""
-- curated_id: 6aaae447d97edf04a4d1e1cb543cc027
-  item_date: "2013-11-12 00:00:00"
-  title: Platform version 5.60.4 release
-  url: http://blog.onforce.com/2013/11/12/platform-version-5-60-4-release/
-  domain: blog.onforce.com
-  image: ""
-- curated_id: 5e55dda3be63707bd1162728db4cefcc
-  item_date: "2013-11-20 00:00:00"
-  title: Pocket 5.0 for Android has Arrived!
-  url: https://getpocket.com/blog/2013/11/pocket-5-0-for-android-has-arrived/
-  domain: getpocket.com
-  image: ""
-- curated_id: 5fe26a58a21faacb76c4dbb440177049
-  item_date: "2013-11-21 00:00:00"
-  title: A fresh Dropbox for iPhone  iPad
-  url: https://blogs.dropbox.com/dropbox/2013/11/a-fresh-dropbox-for-iphone-ipad/
-  domain: blogs.dropbox.com
-  image: ""
-- curated_id: 147fa7d8de14c31c5e25e5e7aff7c865
-  item_date: "2013-11-25 00:00:00"
-  title: Updated http://blog.cancerapi.org/ to Wo?
-  url: http://blog.cancerapi.org/updated-httpblog-cancerapi-org-to-wo-2/
-  domain: blog.cancerapi.org
-  image: ""
-- curated_id: 71319bc017f69d45bd08f87556e6b6ca
-  item_date: "2013-11-28 00:00:00"
-  title: Fall API Improvements
-  url: http://blog.flowdock.com/2013/11/28/fall-api-improvements/
-  domain: blog.flowdock.com
-  image: ""
-- curated_id: ed0c85cc0e8dabcea539beb1eb0b0dcc
-  item_date: "2013-12-02 00:00:00"
-  title: BaasBox Server 0.7.2 released
-  url: http://www.baasbox.com/baasbox-server-0-7-2-released/
-  domain: www.baasbox.com
-  image: ""
-- curated_id: d07d1d8390873d759432dff011fc4875
-  item_date: "2013-12-04 00:00:00"
-  title: Introducing LearnSprout 1.1!
-  url: http://blog.learnsprout.com/post/68977673084/introducing-learnsprout-1-1
-  domain: blog.learnsprout.com
-  image: ""
-- curated_id: 868dfc05c404c6a948cb25caa6d86fe3
-  item_date: "2013-12-05 00:00:00"
-  title: ALE v1.0.2 has been released!
-  url: https://developer.ford.com/post/2013/12/ale-v1-0-has-been-released
-  domain: developer.ford.com
-  image: ""
-- curated_id: 89ff5c23d17d002884cc96d64c4d448c
-  item_date: "2013-12-08 00:00:00"
-  title: What?s New with the View API
-  url: https://blog.box.com/blog/whats-new-with-the-view-api-2/
-  domain: blog.box.com
-  image: ""
-- curated_id: c0f8d0738e21455a32cab6cdb49f9fe1
-  item_date: "2013-12-09 00:00:00"
-  title: New Features and Libraries - December 2013
-  url: http://blog.hipmob.com/post/69513302639/new-features-and-libraries-december-2013
-  domain: blog.hipmob.com
-  image: ""
-- curated_id: 66f57bccaa0fd0a566874caed9565ad1
-  item_date: "2013-12-09 00:00:00"
-  title: MakerBot MakerWare 2.4.1 | Release
-  url: http://www.makerbot.com/blog/2013/12/09/makerbot-makerware-2-4-1-release
-  domain: www.makerbot.com
-  image: ""
-- curated_id: e431fd4cd862e813a966413963fc5f2e
-  item_date: "2013-12-10 00:00:00"
-  title: AdSense Management API v1.4 released
-  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8750135728037955356
-  domain: www.blogger.com
-  image: ""
-- curated_id: 52a0ae788befc5b999312f00b7a6bf87
-  item_date: "2013-12-10 00:00:00"
-  title: Skype for Windows Phone 8 ? version 2.13
-  url: http://blogs.skype.com/2013/12/10/skype-for-windows-phone-8-version-2-13/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 06e5482f336414faa89071c1edf48ab9
-  item_date: "2013-12-10 00:00:00"
-  title: Octopart API V3 is Ready for Production!
-  url: https://octopart.com/blog/archives/2013/12/octopart-api-v3-is-ready-for-production%2521
-  domain: octopart.com
-  image: ""
-- curated_id: 7ef16729743f0f54590652a45bdbb466
-  item_date: "2013-12-11 00:00:00"
-  title: Moki Releases Updated Version of SDK to Improve App Support and Security
-  url: http://feedproxy.google.com/~r/MokimobilityBlog/~3/GzIGTrINp4Y/
-  domain: feedproxy.google.com
-  image: ""
-- curated_id: 7d1e14bf51ce5a3a9da07ae1a105696d
-  item_date: "2013-12-11 00:00:00"
-  title: AssureSign 4.18 Production Release
-  url: https://www.assuresign.com/2013/12/assuresign-4-18-production-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: e3d2f63983ca43278577b32053cd9284
-  item_date: "2013-12-18 00:00:00"
-  title: Skype for Mac 6.12 ? Improved Stability and Performance
-  url: http://blogs.skype.com/2013/12/18/skype-for-mac-6-12-improved-stability-and-performance/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 92d13021ee2c01c749cd27cadc5dde41
-  item_date: "2013-12-19 00:00:00"
-  title: Highlights of Version 5.4
-  url: http://www.talend.com/blog/2013/12/19/highlights-of-version-54
-  domain: www.talend.com
-  image: ""
-- curated_id: dd3ccaaf8433b1cc3c7a256493eff689
-  item_date: "2013-12-19 00:00:00"
-  title: 'Welcome to Umano 4.0: The New Era Of The Listening Experience'
-  url: http://blog.umanoapp.com/post/70530924379
-  domain: blog.umanoapp.com
-  image: ""
-- curated_id: d3e8dc7a9e6c60dfe9b83829595f511d
-  item_date: "2013-12-19 00:00:00"
-  title: 'MindTouch Product Release: Dec 19, 2013'
-  url: https://www.mindtouch.com/resources/mindtouch-product-release-dec-19-2013/
-  domain: www.mindtouch.com
-  image: ""
-- curated_id: e55f1d0bd158a7c167d277c2c323e9f5
-  item_date: "2013-12-19 00:00:00"
-  title: 'Flowdock for iPhone  Android Hit 2.0: Native Rewrites, Team Inbox Included'
-  url: http://blog.flowdock.com/2013/12/19/flowdock-for-iphone-android-hit-2-0-native-rewrites-team-inbox-included/
-  domain: blog.flowdock.com
-  image: ""
-- curated_id: ac459261bdd3b7cd41482c3214ffcd40
-  item_date: "2014-03-03 00:00:00"
-  title: Announcing v201403 of the DFP API
-  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/4335505667928575709
-  domain: www.blogger.com
-  image: ""
-- curated_id: 0ac8f4631a187a51f78aa01b31aef048
-  item_date: "2014-03-04 00:00:00"
-  title: HTTP API Versioning Using Nancy (.NET) - @liddellj
-  url: http://apidigest.com/posts/2014/3/4/http-api-versioning-using-nancy-net-liddellj
-  domain: apidigest.com
-  image: ""
-- curated_id: d31ea933cae00d8cc40f6b528d48287f
-  item_date: "2014-06-04 00:00:00"
-  title: Updated DoubleClick Ad Exchange Buyer REST API examples to get you started
-  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8837317805942116479
-  domain: www.blogger.com
-  image: ""
-- curated_id: cfa777d224b9c95d7b4f36ec6803e822
-  item_date: "2014-06-10 09:58:21"
-  title: Dropbox - Announcing the Sync API and Datastore API version 3.0! - Developer
-    Blog
-  url: https://blogs.dropbox.com/developers/2014/06/announcing-the-sync-api-and-datastore-api-version-3-0/
-  domain: blogs.dropbox.com
-  image: ""
-- curated_id: 4f9d57a3af0f84cb295725b06614ebe9
-  item_date: "2014-06-19 00:00:00"
-  title: AssureSign 4.31 Production Release
-  url: https://www.assuresign.com/2014/06/assuresign-4-31-production-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: b0c1fa445b8fb2f429777bbb7ea7583d
-  item_date: "2014-06-26 15:07:50"
-  title: Announcing Ushahidi v3.0.0-beta.2 release! Ushahidi - Ushahidi
-  url: https://www.ushahidi.com/blog/2014/06/26/announcing-ushahidi-v3-0-0-beta-2-release/
-  domain: www.ushahidi.com
-  image: ""
-- curated_id: 73bffe0375c43b29188ca9cc41173dd1
-  item_date: "2014-07-14 00:00:00"
-  title: iOS Updates
-  url: http://blog.pogoplug.com/ios-updates-3404/
-  domain: blog.pogoplug.com
-  image: ""
-- curated_id: f5a7a27574b46cf71694f5eca6183d48
-  item_date: "2014-07-17 00:00:00"
-  title: Titanium SDK and Studio 3.3.0 GA Now Available
-  url: http://www.appcelerator.com/blog/2014/07/titanium-sdk-and-studio-3-3-0-ga-now-available/
-  domain: www.appcelerator.com
-  image: ""
-- curated_id: c47eacc41b81fe61fcfcfd77b36058b6
-  item_date: "2014-07-18 00:00:00"
-  title: AssureSign 4.33 Production Release
-  url: https://www.assuresign.com/2014/07/assuresign-4-33-production-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: afc26d90afbad79b2479475f228b4e4f
-  item_date: "2014-07-18 00:00:00"
-  title: iOS Filepicker 3.0.3 Updates
-  url: http://blog.filepicker.io/post/92153926297
-  domain: blog.filepicker.io
-  image: ""
-- curated_id: 0d40831facd05f63df904b1b74d8b1c5
-  item_date: "2014-07-22 00:00:00"
-  title: What?s New in LoopBack 2.0
-  url: https://strongloop.com/strongblog/node-js-loopback-2-0-whats-new/
-  domain: strongloop.com
-  image: ""
-- curated_id: 63cd74c3c8b4c53509fb1b42903a0fd5
-  item_date: "2014-07-31 00:00:00"
-  title: Checkbox Version 6.7 Released to Server Customers
-  url: https://www.checkbox.com/company-news/2014/07/checkbox-version-6-7-released-to-server-customers/
-  domain: www.checkbox.com
-  image: ""
-- curated_id: ecce1adfd636603508acdcba8883c3f2
-  item_date: "2014-08-11 00:00:00"
-  title: Web Deploy 3.6 Beta Released
-  url: https://azure.microsoft.com/en-us/blog/2014/08/11/web-deploy-3-6-beta-released/
-  domain: azure.microsoft.com
-  image: ""
-- curated_id: dd491e741704ac64e2aec4f3a689e46e
-  item_date: "2014-08-13 00:00:00"
-  title: Upcoming Non-breaking API Changes in Node v0.12
-  url: https://strongloop.com/strongblog/node-js-v0-12-new-apis/
-  domain: strongloop.com
-  image: ""
-- curated_id: 141f228da8ccf9906343e112a7072b81
-  item_date: "2014-08-15 00:00:00"
-  title: Announcing Banckle.Chat for WordPress v1.3.9!
-  url: http://banckle.com/blog/announcing-banckle-chat-for-wordpress-v1-3-9.html
-  domain: banckle.com
-  image: ""
-- curated_id: 20488c814fe57febd41851375d09a8e6
-  item_date: "2014-08-18 00:00:00"
-  title: Upcoming Breaking API Changes in Node v0.12
-  url: https://strongloop.com/strongblog/node-js-v0-12-apis-breaking/
-  domain: strongloop.com
-  image: ""
-- curated_id: a5bf7c44ba896d2869b00701458ffc00
-  item_date: "2014-08-28 00:00:00"
-  title: A new Mailjet has landed!
-  url: https://www.mailjet.com/blogpost/96011810795
-  domain: www.mailjet.com
-  image: ""
-- curated_id: 424be78780869ac947ba136718132e49
-  item_date: "2014-09-24 00:00:00"
-  title: AssureSign Version 4.37 Release
-  url: https://www.assuresign.com/2014/09/assuresign-version-4-37-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: 23f5f8fae149d00ba113a9dde0fd5369
-  item_date: "2014-09-25 00:00:00"
-  title: Dribbble Launches New Beta Version API
-  url: http://www.programmableweb.com/news/dribbble-launches-new-beta-version-api/brief/2014/09/25
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: 6b167cd6f631bd981599054b2e4cba4f
-  item_date: "2014-09-30 00:00:00"
-  title: New in SDK 3.4 ? iOS 8 Interactive Notifications
-  url: http://www.appcelerator.com/blog/2014/09/new-in-sdk-3-4-ios-8-interactive-notifications/
-  domain: www.appcelerator.com
-  image: ""
-- curated_id: 262b7e52942cb6387542f0c728db0e20
-  item_date: "2014-10-01 00:00:00"
-  title: Gluu Sever 1.9 is released!
-  url: https://www.gluu.org/blog/gluu-sever-1-9-is-released/
-  domain: www.gluu.org
-  image: ""
-- curated_id: 816a89eff9547181841aa8bb651c7265
-  item_date: "2014-11-05 00:00:00"
-  title: AssureSign Version 4.40 Release
-  url: https://www.assuresign.com/2014/11/assuresign-version-4-40-release/
-  domain: www.assuresign.com
-  image: ""
-- curated_id: b21b0a2c7e3205e2269030254dca622b
-  item_date: "2014-12-18 00:00:00"
-  title: WordPress 4.1 ?Dinah?
-  url: https://wordpress.org/news/2014/12/dinah/
-  domain: wordpress.org
-  image: ""
-- curated_id: dfea8fb4345c465a409e71065772c862
-  item_date: "2014-12-18 08:50:03"
-  title: Nutritionix releases 2.0 API Beta | Nutritionix Blog
-  url: http://blog.nutritionix.com/2014/12/16/nutritionix-releases-2-0-beta-api/
-  domain: blog.nutritionix.com
-  image: ""
-- curated_id: 6ae40341e435ead410f420f5ac9fa6cd
-  item_date: "2014-12-22 00:00:00"
-  title: Codenvy 3.4 Now Available!
-  url: http://blog.codenvy.com/codenvy-3-4-now-available/
-  domain: blog.codenvy.com
-  image: ""
-- curated_id: e7876683721c6e1d8990d3b282bf3433
-  item_date: "2014-12-28 00:00:00"
-  title: Elasticsearch Version 1.4.2 and 1.3.7 Released and Available on Qbox
-  url: https://qbox.io/blog/elasticsearch-version-1.4.2-and-1.3.7-released-and-available-on-qbox
-  domain: qbox.io
-  image: ""
 - curated_id: 211f7f4477d7eb259b219cfa94391032
   item_date: "2015-01-07 00:00:00"
   title: AssureSign Version 5.0 Release
@@ -769,12 +227,6 @@
   url: http://www.programmableweb.com/news/amazon-announces-mock-integration-feature-api-gateway/brief/2015/09/03
   domain: www.programmableweb.com
   image: ""
-- curated_id: a672ab9f4369ca784a3d9b671ebf6389
-  item_date: "2015-09-24 00:00:00"
-  title: API Virtualization Infographic from ServiceV Pro
-  url: http://blog.smartbear.com/apis/api-virtualization-infographic-from-servicev-pro/
-  domain: blog.smartbear.com
-  image: ""
 - curated_id: 5152f36b4ff022d61dd5bea1ae85ebeb
   item_date: "2015-09-24 00:00:00"
   title: Pinterest Takes Wraps Off Public API, Launches Developer Sandbox
@@ -786,6 +238,12 @@
   title: Pinterest opens developer sandbox for API access, inspiring new apps
   url: http://www.zdnet.com/article/pinterest-launching-developer-sandbox-for-api-access/#ftag=RSSbaffb68
   domain: www.zdnet.com
+  image: ""
+- curated_id: a672ab9f4369ca784a3d9b671ebf6389
+  item_date: "2015-09-24 00:00:00"
+  title: API Virtualization Infographic from ServiceV Pro
+  url: http://blog.smartbear.com/apis/api-virtualization-infographic-from-servicev-pro/
+  domain: blog.smartbear.com
   image: ""
 - curated_id: 4a25dc07d0dae6da522d14b28749308f
   item_date: "2015-10-22 00:00:00"
@@ -847,17 +305,17 @@
   url: http://googleadsdeveloper.blogspot.com/2016/02/announcing-v201601-of-adwords-api.html
   domain: googleadsdeveloper.blogspot.com
   image: ""
-- curated_id: cdf30b288bf97be516a28d0fd5c3d449
-  item_date: "2016-02-17 00:00:00"
-  title: AirWatch 8.3 released with focus on IT transparency
-  url: http://www.zdnet.com/article/airwatch-8-3-released-with-focus-on-it-transparency/#ftag=RSSbaffb68
-  domain: www.zdnet.com
-  image: ""
 - curated_id: 3df5c8ed13c8c361407c7583f0d75cfe
   item_date: "2016-02-17 00:00:00"
   title: Why Github#039;s Scientist 1.0 Could Be Great for API Versioning
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
+  image: ""
+- curated_id: cdf30b288bf97be516a28d0fd5c3d449
+  item_date: "2016-02-17 00:00:00"
+  title: AirWatch 8.3 released with focus on IT transparency
+  url: http://www.zdnet.com/article/airwatch-8-3-released-with-focus-on-it-transparency/#ftag=RSSbaffb68
+  domain: www.zdnet.com
   image: ""
 - curated_id: d59d101678eeb4b9ebfba4964176139d
   item_date: "2016-02-18 00:00:00"
@@ -872,17 +330,17 @@
   url: http://blog.smartbear.com/api-testing/announcing-ready-api-1-6-for-enterprise-testing-and-virtualization/
   domain: blog.smartbear.com
   image: ""
-- curated_id: d8096d76af35a91e41a1051c24b4e6b6
-  item_date: "2016-02-21 00:00:00"
-  title: Badly versioned requests now generate errors
-  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
-  domain: blog.opencagedata.com
-  image: ""
 - curated_id: 625c7ce702dddb91153e90143be16328
   item_date: "2016-02-21 00:00:00"
   title: Why You Should, or Shouldn#039;t Version Your API
   url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
   domain: www.programmableweb.com
+  image: ""
+- curated_id: d8096d76af35a91e41a1051c24b4e6b6
+  item_date: "2016-02-21 00:00:00"
+  title: Badly versioned requests now generate errors
+  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
+  domain: blog.opencagedata.com
   image: ""
 - curated_id: d8276b3bffde722df02913b083c9149f
   item_date: "2016-02-24 00:00:00"
@@ -1060,18 +518,18 @@
   url: http://blogs.ca.com/2016/08/03/pokemon-service-virtualization/
   domain: blogs.ca.com
   image: ""
-- curated_id: 3debef6d3d3ca54d82f87935e80db37a
-  item_date: "2016-08-16 00:00:00"
-  title: Tips for Sandboxing Docker Containers
-  url: http://blogs.adobe.com/security/2016/08/tips-for-sandboxing-docker-containers.html
-  domain: blogs.adobe.com
-  image: ""
 - curated_id: 39f82f3fb3f8ddc6453542f06ee1bfa3
   item_date: "2016-08-16 00:00:00"
   title: API Mocking Tool WireMock v2 Released with Improved Request Matching and
     Stub Management
   url: https://www.infoq.com/news/2016/08/wiremock-v2-api-mocking
   domain: www.infoq.com
+  image: ""
+- curated_id: 3debef6d3d3ca54d82f87935e80db37a
+  item_date: "2016-08-16 00:00:00"
+  title: Tips for Sandboxing Docker Containers
+  url: http://blogs.adobe.com/security/2016/08/tips-for-sandboxing-docker-containers.html
+  domain: blogs.adobe.com
   image: ""
 - curated_id: 8a08b78be2545fba3033785ee98119e7
   item_date: "2016-08-17 00:00:00"
@@ -1130,18 +588,18 @@
   url: http://www.tctmagazine.com/3D-software-news/simufact-launch-simulation-software-metal-3d-printing/
   domain: www.tctmagazine.com
   image: ""
-- curated_id: eaf66593d605f9d1f7deaae370c0bb4d
-  item_date: "2016-09-20 00:00:00"
-  title: 'Fake JSON service: json-server'
-  url: https://www.pgs-soft.com/fake-json-service-json-server/
-  domain: www.pgs-soft.com
-  image: ""
 - curated_id: 4a8770cb8266c55acc16faaf916fea64
   item_date: "2016-09-20 00:00:00"
   title: 'Choose Your Own Big Data Adventure: Getting Started with Talend?s New Big
     Data Sandbox'
   url: http://www.talend.com/blog/2016/09/20/choose-your-own-big-data-adventure-getting-started-with-talend%E2%80%99s-new-big-data
   domain: www.talend.com
+  image: ""
+- curated_id: eaf66593d605f9d1f7deaae370c0bb4d
+  item_date: "2016-09-20 00:00:00"
+  title: 'Fake JSON service: json-server'
+  url: https://www.pgs-soft.com/fake-json-service-json-server/
+  domain: www.pgs-soft.com
   image: ""
 - curated_id: f31ca84a07b54db2d0981ae897d3b5f0
   item_date: "2016-09-27 00:00:00"
@@ -1240,6 +698,12 @@
   url: http://solutionsreview.com/data-integration/4-data-virtualization-vendors-to-watch-in-2017/
   domain: solutionsreview.com
   image: ""
+- curated_id: 9f7fcccd26264b2a7f4b8db679aea8a4
+  item_date: "2017-02-07 00:00:00"
+  title: API Versioning for HTTP REST Interfaces
+  url: https://www.suse.com/communities/blog/best-practice-api-versioning-http-rest-interfaces/
+  domain: www.suse.com
+  image: ""
 - curated_id: c7a39d25a66baffeb1552cba8ffa833d
   item_date: "2017-02-09 10:27:53"
   title: Mocking API Data
@@ -1259,11 +723,30 @@
   url: https://newsroom.cisco.com/press-release-content
   domain: newsroom.cisco.com
   image: ""
+- curated_id: 212281514fcaa78427cbb9acde6cf771
+  item_date: "2017-02-23 00:00:00"
+  title: When and How Do You Version Your API?
+  url: https://tyk.io/2017/02/23/when-and-how-do-you-version-your-api/
+  domain: tyk.io
+  image: ""
+- curated_id: 15ca901526bdc6de3d52ebadfd16b006
+  item_date: "2017-02-23 06:33:08"
+  title: 'Tweet: Got questions about API versioning? Let our handy guide help you:
+    https://t.co/Xq1RvEMnbl https://t.co/V3QFa2obJp'
+  url: https://twitter.com/tyk_io/statuses/834773090668273664
+  domain: twitter.com
+  image: ""
 - curated_id: f4fee95e2dd2e345df346cf03dcd50fa
   item_date: "2017-03-08 00:00:00"
   title: Switch easily from staging to production using Environments in Restlet Client
   url: https://restlet.com/company/blog/2017/03/08/switch-easily-from-staging-to-production-using-environments-in-restlet-client/
   domain: restlet.com
+  image: ""
+- curated_id: 95dd462eaa011398169877e43a02418f
+  item_date: "2017-03-14 00:00:00"
+  title: How to launch software changes without pissing people off
+  url: https://m.signalvnoise.com/how-to-launch-software-changes-without-pissing-people-off-cf79dce64630#.3indgru9y
+  domain: m.signalvnoise.com
   image: ""
 - curated_id: 0e38bb93893ef68a78b0964fe7168157
   item_date: "2017-03-15 00:00:00"
@@ -1283,17 +766,17 @@
   url: https://www.programmableweb.com/news/simulate-apis-and-backend-server-new-postman-mock-server-feature/brief/2017/04/06
   domain: www.programmableweb.com
   image: ""
-- curated_id: 92252b96232175d533c3a69cfcc4f6b8
-  item_date: "2017-04-07 00:00:00"
-  title: Simulation-Driven Motor Design for Vehicle Electrification
-  url: http://spectrum.ieee.org/webinar/simulation-driven-motor-design-for-vehicle-electrification
-  domain: spectrum.ieee.org
-  image: ""
 - curated_id: 6e7d83e30ed1108c2f79c67a6b2effbf
   item_date: "2017-04-07 00:00:00"
   title: Can Service Virtualization Boost Agile Testing Strategy?
   url: https://dzone.com/articles/can-service-virtualization-boost-agile-testing-str
   domain: dzone.com
+  image: ""
+- curated_id: 92252b96232175d533c3a69cfcc4f6b8
+  item_date: "2017-04-07 00:00:00"
+  title: Simulation-Driven Motor Design for Vehicle Electrification
+  url: http://spectrum.ieee.org/webinar/simulation-driven-motor-design-for-vehicle-electrification
+  domain: spectrum.ieee.org
   image: ""
 - curated_id: a9333092636523eca30e67b473601087
   item_date: "2017-04-26 00:00:00"
