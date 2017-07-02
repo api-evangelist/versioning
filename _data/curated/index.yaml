@@ -113,17 +113,17 @@
   url: http://www.jwplayer.com/blog/jw-player-sdk-for-android-1-1-released/
   domain: www.jwplayer.com
   image: ""
-- curated_id: f01561548faba008f43dae0c05638c3c
-  item_date: "2015-05-15 00:00:00"
-  title: GroupDocs.Viewer for .NET Version 2.11.1 Released
-  url: http://www.groupdocs.com/blog/groupdocs-viewer-for-dot-net-version-2-11-1-released
-  domain: www.groupdocs.com
-  image: ""
 - curated_id: 509efcb00a8e96c3759e4d99ce12bb52
   item_date: "2015-05-15 00:00:00"
   title: Versioning APIs
   url: http://blog.clearbit.com/versioning-apis
   domain: blog.clearbit.com
+  image: ""
+- curated_id: f01561548faba008f43dae0c05638c3c
+  item_date: "2015-05-15 00:00:00"
+  title: GroupDocs.Viewer for .NET Version 2.11.1 Released
+  url: http://www.groupdocs.com/blog/groupdocs-viewer-for-dot-net-version-2-11-1-released
+  domain: www.groupdocs.com
   image: ""
 - curated_id: cf7df46f5b34c87180e1e29b94dfe8ed
   item_date: "2015-05-18 00:00:00"
@@ -191,17 +191,17 @@
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
   image: ""
-- curated_id: d8096d76af35a91e41a1051c24b4e6b6
-  item_date: "2016-02-21 00:00:00"
-  title: Badly versioned requests now generate errors
-  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
-  domain: blog.opencagedata.com
-  image: ""
 - curated_id: 625c7ce702dddb91153e90143be16328
   item_date: "2016-02-21 00:00:00"
   title: Why You Should, or Shouldn#039;t Version Your API
   url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
   domain: www.programmableweb.com
+  image: ""
+- curated_id: d8096d76af35a91e41a1051c24b4e6b6
+  item_date: "2016-02-21 00:00:00"
+  title: Badly versioned requests now generate errors
+  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
+  domain: blog.opencagedata.com
   image: ""
 - curated_id: d8276b3bffde722df02913b083c9149f
   item_date: "2016-02-24 00:00:00"
@@ -276,5 +276,35 @@
   title: How to launch software changes without pissing people off
   url: https://m.signalvnoise.com/how-to-launch-software-changes-without-pissing-people-off-cf79dce64630#.3indgru9y
   domain: m.signalvnoise.com
+  image: ""
+- curated_id: qhhWIcDYC9w26Atz2YPVGWlZ3ijpzn6VVyZmZhvr38o=_15c3a957d77:27ec74f:cfb784e9
+  item_date: "2017-05-24 06:05:18"
+  title: 'RESTful API Versioning Best Practices: Why v1 is #1'
+  url: https://www.sparkpost.com/?p=13487
+  domain: www.sparkpost.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15c48c8bb9f:1ba187:729f6b1c
+  item_date: "2017-05-26 12:11:41"
+  title: 'RESTful API Versioning Best Practices: Why v1 is #1'
+  url: https://medium.com/p/e5a2680e2c4e
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c87fcfbd1:caa8c9:28ce9b86
+  item_date: "2017-06-08 06:50:26"
+  title: 'RESTful API Versioning Best Practices: Why v1 is #1'
+  url: https://www.sparkpost.com/blog/api-versioning-best-practices/
+  domain: www.sparkpost.com
+  image: ""
+- curated_id: AaqLN7WNk2JdzURhcODOt/DCaKX68I7bKK7Kbjoxmdo=_15cc68a4911:564923:5b78a817
+  item_date: "2017-06-20 10:30:57"
+  title: Version Control in Postman
+  url: http://blog.getpostman.com/?p=2615
+  domain: blog.getpostman.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cf72f3f82:a5762a:661f1d99
+  item_date: "2017-06-29 09:25:11"
+  title: Qlik Sense API Insights
+  url: https://medium.com/p/3e84b61602bd
+  domain: medium.com
   image: ""
 ...
