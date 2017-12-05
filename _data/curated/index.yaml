@@ -191,17 +191,17 @@
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
   image: ""
-- curated_id: d8096d76af35a91e41a1051c24b4e6b6
-  item_date: "2016-02-21 00:00:00"
-  title: Badly versioned requests now generate errors
-  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
-  domain: blog.opencagedata.com
-  image: ""
 - curated_id: 625c7ce702dddb91153e90143be16328
   item_date: "2016-02-21 00:00:00"
   title: Why You Should, or Shouldn#039;t Version Your API
   url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
   domain: www.programmableweb.com
+  image: ""
+- curated_id: d8096d76af35a91e41a1051c24b4e6b6
+  item_date: "2016-02-21 00:00:00"
+  title: Badly versioned requests now generate errors
+  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
+  domain: blog.opencagedata.com
   image: ""
 - curated_id: d8276b3bffde722df02913b083c9149f
   item_date: "2016-02-24 00:00:00"
@@ -360,5 +360,11 @@
   title: Introduction to API Versioning Best Practices
   url: http://nordicapis.com/?p=7380
   domain: nordicapis.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1602190f6e2:cd28ee:9e976e77
+  item_date: "2017-12-03 22:00:33"
+  title: Your First Versioned API with Phoenix Framework
+  url: https://medium.com/p/da0bc7897db6
+  domain: medium.com
   image: ""
 ...
