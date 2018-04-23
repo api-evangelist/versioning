@@ -113,17 +113,17 @@
   url: http://www.jwplayer.com/blog/jw-player-sdk-for-android-1-1-released/
   domain: www.jwplayer.com
   image: ""
-- curated_id: 509efcb00a8e96c3759e4d99ce12bb52
-  item_date: "2015-05-15 00:00:00"
-  title: Versioning APIs
-  url: http://blog.clearbit.com/versioning-apis
-  domain: blog.clearbit.com
-  image: ""
 - curated_id: f01561548faba008f43dae0c05638c3c
   item_date: "2015-05-15 00:00:00"
   title: GroupDocs.Viewer for .NET Version 2.11.1 Released
   url: http://www.groupdocs.com/blog/groupdocs-viewer-for-dot-net-version-2-11-1-released
   domain: www.groupdocs.com
+  image: ""
+- curated_id: 509efcb00a8e96c3759e4d99ce12bb52
+  item_date: "2015-05-15 00:00:00"
+  title: Versioning APIs
+  url: http://blog.clearbit.com/versioning-apis
+  domain: blog.clearbit.com
   image: ""
 - curated_id: cf7df46f5b34c87180e1e29b94dfe8ed
   item_date: "2015-05-18 00:00:00"
@@ -191,17 +191,17 @@
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
   image: ""
-- curated_id: d8096d76af35a91e41a1051c24b4e6b6
-  item_date: "2016-02-21 00:00:00"
-  title: Badly versioned requests now generate errors
-  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
-  domain: blog.opencagedata.com
-  image: ""
 - curated_id: 625c7ce702dddb91153e90143be16328
   item_date: "2016-02-21 00:00:00"
   title: Why You Should, or Shouldn#039;t Version Your API
   url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
   domain: www.programmableweb.com
+  image: ""
+- curated_id: d8096d76af35a91e41a1051c24b4e6b6
+  item_date: "2016-02-21 00:00:00"
+  title: Badly versioned requests now generate errors
+  url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
+  domain: blog.opencagedata.com
   image: ""
 - curated_id: d8276b3bffde722df02913b083c9149f
   item_date: "2016-02-24 00:00:00"
