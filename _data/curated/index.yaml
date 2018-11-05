@@ -191,17 +191,17 @@
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
   image: ""
-- curated_id: 625c7ce702dddb91153e90143be16328
-  item_date: "2016-02-21 00:00:00"
-  title: Why You Should, or Shouldn#039;t Version Your API
-  url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
-  domain: www.programmableweb.com
-  image: ""
 - curated_id: d8096d76af35a91e41a1051c24b4e6b6
   item_date: "2016-02-21 00:00:00"
   title: Badly versioned requests now generate errors
   url: http://blog.opencagedata.com/post/139745380958/badly-versioned-requests-now-generate-errors#_=_
   domain: blog.opencagedata.com
+  image: ""
+- curated_id: 625c7ce702dddb91153e90143be16328
+  item_date: "2016-02-21 00:00:00"
+  title: Why You Should, or Shouldn#039;t Version Your API
+  url: http://www.programmableweb.com/news/why-you-should-or-shouldnt-version-your-api/elsewhere-web/2016/02/21
+  domain: www.programmableweb.com
   image: ""
 - curated_id: d8276b3bffde722df02913b083c9149f
   item_date: "2016-02-24 00:00:00"
@@ -444,5 +444,17 @@
   title: API Versioning for Connect v2
   url: https://medium.com/p/2a4fb7298efd
   domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_165d86c9fb2:4199fb:3097813d
+  item_date: "2018-09-14 06:55:13"
+  title: Version Control Done Right
+  url: https://dzone.com/articles/2448107
+  domain: dzone.com
+  image: ""
+- curated_id: 3sOkcm6yz7RzahZqjgGz802Mh9gdTaNECiKVxsvA9Ss=_1668a8c0229:fbfeb3:9dda0303
+  item_date: "2018-10-18 21:02:18"
+  title: GA4GH and ELIXIR release Beacon API v1 with increased security measures
+  url: https://www.eurekalert.org/pub_releases/2018-10/gafg-gae101818.php
+  domain: www.eurekalert.org
   image: ""
 ...
