@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API Evangelist - Versioning
+title: API Evangelist - Design
 ---
 
 <!-- Main -->
@@ -10,27 +10,24 @@ title: API Evangelist - Versioning
 		<header>
 			<h2>{{ home_content.title }}</h2>
 		</header>
-		<img src="{{ home_content.image }}" alt="" width="45%" align="right" />
+		<img src="{{ home_content.image }}" alt="API Evangelist" align="right" width="250" style="padding: 15px;" />
 		{{ home_content.content }}
 	</div>
 </section>
 
 <!-- Partners -->
-<a name="Partners"></a>
 <section>
 	<div class="features">
-		{% assign partners = site.data.partners.index | sort: 'view_sort' %}
-    {% for partner in partners %}
-      {% if partner.type == 'Sponsor' %}
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
-					<p>{{ partner.description }}</p>
-				</div>
-			</article>
-      {% endif %}
-    {% endfor %}
+	  {% assign partners = site.data.partners.index | sort: 'view_sort' %}
+	  {% for partner in partners %}
+	    {% if partner.type == 'Sponsor' %}
+	    <article>
+	      <div class="content">
+	        <p align="center"><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px; border: 1px solid #000;" /></a></p>
+	      </div>
+	    </article>
+	    {% endif %}
+	  {% endfor %}
 	</div>
 </section>
 
@@ -40,7 +37,7 @@ title: API Evangelist - Versioning
 	<section id="banner">
 		<div class="content">
 			<header>
-				<h2>Latest From Blog on API Virtualization: {{ post.title }}</h2>
+				<h2>Latest From Blog on API Design: {{ post.title }}</h2>
 				<p><em>{{ post.date | date_to_string }}</em></p>
 			</header>
 			{{ post.content }}
@@ -55,8 +52,7 @@ title: API Evangelist - Versioning
 <a name="News"></a>
 {% assign news_content = site.data.news_content.index[0] %}
 {% assign news = site.data.curated.index %}
-{% assign news = news | sort: 'item_date' %}
-{% assign news = news | reverse %}
+{% assign news = news | sort: 'item_date' | reverse %}
 <section>
 	<header>
 		<h2>{{ news_content.title }}</h2>
@@ -73,11 +69,13 @@ title: API Evangelist - Versioning
 			</thead>
 			<tbody>
 				{% for curated in news %}
-				<tr>
-					<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
-					<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
-					<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
-				</tr>
+					{% unless curated.title == '' %}
+					<tr>
+						<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
+						<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
+						<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
+					</tr>
+					{% endunless %}
 				{% endfor %}
 			</tbody>
 		</table>
@@ -88,6 +86,146 @@ title: API Evangelist - Versioning
 			<li><a href="/news/" class="button big">Read The News</a></li>
 		</ul>
 	</center>
+</section>
+
+<!-- Organizations -->
+<a name="Organizations"></a>
+{% assign organization_content = site.data.organization_content.index[0] %}
+<section>
+	<header>
+		<h2>{{ organization_content.title }}</h2>
+	</header>
+	<p>{{ organization_content.header }}</p>
+	<div class="features">
+		{% assign organizations = site.data.organizations.index %}
+    {% for organization in organizations %}
+			<article>
+				<p><a href="{{ organization.website }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.logo }}" width="175" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ organization.website }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.summary }}</p>
+					<ul class="icons">
+						<li><a href="{{ organization.website }}" class="icon fa-home"><span class="label">Home</span></a></li>
+						{% if organization.twitter != '' %}
+						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						{% endif %}
+						{% if organization.blog != '' %}
+						<li><a href="{{ organization.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+						{% endif %}
+						{% if organization.blog_rss != '' %}
+						<li><a href="{{ organization.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+						{% endif %}
+						{% if organization.github != '' %}
+						<li><a href="{{ organization.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</article>
+    {% endfor %}
+		<center>
+			<ul class="actions" style="text-align: center;">
+				<li><a href="/organizations/" class="button big">See All Organizations</a></li>
+			</ul>
+		</center>
+		<p>{{ organization_content.footer }}</p>
+	</div>
+</section>
+
+<!-- Tools -->
+<a name="Tools"></a>
+{% assign approved_tags = 'API Specification,Generator,Validator,API Design Guide,Data Specification,Design Editor,Design Notebook,Hypermedia,IDE,Semantics,gRPC' %}
+{% assign tool_content = site.data.tool_content.index[0] %}
+<section>
+	<header>
+		<h2>{{ tool_content.title }}</h2>
+		<p>{{ tool_content.header }}</p>
+	</header>
+		{% assign tools = site.data.tools.index %}
+		{% assign tagslist = '' %}
+		{% for tool in tools %}
+			{% for tag in tool.tags %}
+				{% if tagslist contains tag %}
+				{% else %}
+					{% if tagslist != '' %}
+						{% assign tagslist = tagslist | append:',' %}
+					{% endif %}
+					{% assign tagslist = tagslist | append: tag %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+
+		{% assign tagArray = tagslist | split: "," %}
+		{% assign tagArray = tagArray | sort: %}
+
+		{% for tag in tagArray %}
+			{% assign tag = tag | replace: '"','' | replace: '[','' | replace: ']','' %}
+			<h3>{{ tag }}</h3>
+			<div class="features">
+				{% for tool in tools %}
+					{% if tool.tags contains tag %}
+		        <article>
+		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.logo }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
+		          <div class="content">
+		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+		            <p>{{ tool.details }}</p>
+								<ul class="icons">
+									<li><a href="{{ tool.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+									{% if tool.twitter != '' %}
+									<li><a href="{{ tool.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									{% endif %}
+									{% if tool.blog != '' %}
+									<li><a href="{{ tool.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+									{% endif %}
+									{% if tool.blog_rss != '' %}
+									<li><a href="{{ tool.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+									{% endif %}
+									{% if tool.github != '' %}
+									<li><a href="{{ tool.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+									{% endif %}
+								</ul>
+		          </div>
+		        </article>
+					{% endif %}
+		    {% endfor %}
+			</div>
+		{% endfor %}
+		<ul class="actions" style="text-align: center;">
+			<li><a href="/tools/" class="button big">See All Tools</a></li>
+		</ul>
+		<p>{{ tool_content.footer }}</p>
+</section>
+
+<!-- Building Blocks -->
+<a name="BuildingBlocks"></a>
+{% assign building_block_content = site.data.building_block_content.index[0] %}
+{% assign building_blocks = site.data.building_blocks.index %}
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>{{ building_block_content.title }}</h2>
+			<p>{{ building_block_content.header }}</p>
+		</header>
+		<ul style="padding: 0px 25px 0px 25px;">
+			{% for category in building_blocks %}
+				<li>
+					<span style="font-size: 18px; font-weight: bold;">{{ category.category_name }}</span>
+					<ul style="margin-top: 10px;">
+						{% for block in category.building_blocks %}
+							{% if block.category == category.category_name %}
+							<li><strong>{{ block.name }}</strong> - {{ block.about }}</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</li>
+			{% endfor %}
+		</ul>
+		<p>{{ building_block_content.footer }}</p>
+		<center>
+			<ul class="actions" style="text-align: center;">
+				<li><a href="/building-blocks/" class="button big">See The Building Blocks</a></li>
+			</ul>
+		</center>
+	</div>
 </section>
 
 <!-- About This Research -->
@@ -101,6 +239,22 @@ title: API Evangelist - Versioning
 		{{ about_content.content }}
 	</div>
 	<span class="image object">
-		<img src="{{ about_content.image }}" alt="" width="25%" />
+		<img src="{{ about_content.image }}" alt="" width="5%" style="padding: 15px;" />
 	</span>
+</section>
+
+<!-- Partners -->
+<section>
+	<div class="features">
+	  {% assign partners = site.data.partners.index | sort: 'view_sort' %}
+	  {% for partner in partners %}
+	    {% if partner.type == 'Sponsor' %}
+	    <article>
+	      <div class="content">
+	        <p align="center"><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px; border: 1px solid #000;" /></a></p>
+	      </div>
+	    </article>
+	    {% endif %}
+	  {% endfor %}
+	</div>
 </section>
