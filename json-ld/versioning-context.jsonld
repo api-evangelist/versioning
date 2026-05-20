@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "ver": "https://api-evangelist.github.io/versioning/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "APIVersion": "ver:APIVersion",
+    "BreakingChange": "ver:BreakingChange",
+    "DeprecationRecord": "ver:DeprecationRecord",
+    "VersionPolicy": "ver:VersionPolicy",
+
+    "api": {
+      "@id": "ver:api",
+      "@type": "xsd:string"
+    },
+    "version": {
+      "@id": "schema:version",
+      "@type": "xsd:string"
+    },
+    "scheme": {
+      "@id": "ver:scheme",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "ver:status",
+      "@type": "xsd:string"
+    },
+    "released_at": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "deprecated_at": {
+      "@id": "ver:deprecatedAt",
+      "@type": "xsd:date"
+    },
+    "sunset_at": {
+      "@id": "ver:sunsetAt",
+      "@type": "xsd:date"
+    },
+    "spec_url": {
+      "@id": "dcat:downloadURL",
+      "@type": "@id"
+    },
+    "changelog_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "compatibility": {
+      "@id": "ver:compatibility",
+      "@type": "xsd:string"
+    },
+    "version_header": {
+      "@id": "ver:versionHeader"
+    },
+    "breaking_changes": {
+      "@id": "ver:breakingChanges",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+
+    "id": "@id",
+    "from_version": {
+      "@id": "ver:fromVersion",
+      "@type": "xsd:string"
+    },
+    "to_version": {
+      "@id": "ver:toVersion",
+      "@type": "xsd:string"
+    },
+    "severity": {
+      "@id": "ver:severity",
+      "@type": "xsd:string"
+    },
+    "category": {
+      "@id": "ver:category",
+      "@type": "xsd:string"
+    },
+    "path": {
+      "@id": "ver:path",
+      "@type": "xsd:string"
+    },
+    "method": {
+      "@id": "ver:method",
+      "@type": "xsd:string"
+    },
+    "location": {
+      "@id": "ver:location",
+      "@type": "xsd:string"
+    },
+    "description": "schema:description",
+    "migration": {
+      "@id": "ver:migration",
+      "@type": "xsd:string"
+    },
+    "detected_by": {
+      "@id": "ver:detectedBy",
+      "@type": "xsd:string"
+    },
+    "name": "schema:name"
+  }
+}

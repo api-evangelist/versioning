@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/versioning/refs/heads/main/json-schema/versioning-api-version-schema.json",
+  "title": "APIVersion",
+  "description": "A single released version of an API, including its identifier, release status, supported specification, and lifecycle dates.",
+  "type": "object",
+  "properties": {
+    "api": {
+      "type": "string",
+      "description": "Identifier of the API this version belongs to.",
+      "example": "stripe-payments"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version identifier as advertised to consumers.",
+      "example": "2024-04-10"
+    },
+    "scheme": {
+      "type": "string",
+      "enum": ["semver", "calver", "date", "integer", "custom"],
+      "description": "Versioning scheme used for the version identifier.",
+      "example": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["preview", "stable", "deprecated", "sunset"],
+      "description": "Lifecycle status of this version.",
+      "example": "stable"
+    },
+    "released_at": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the version was released to consumers.",
+      "example": "2024-04-10"
+    },
+    "deprecated_at": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the version was marked deprecated, if applicable.",
+      "example": "2026-04-10"
+    },
+    "sunset_at": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the version will be removed from service (Sunset HTTP header value, RFC 8594).",
+      "example": "2027-04-10"
+    },
+    "spec_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, Protobuf) for this version.",
+      "example": "https://stripe.com/docs/api/2024-04-10/openapi.yaml"
+    },
+    "changelog_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the human-readable changelog for this version.",
+      "example": "https://stripe.com/docs/upgrades#2024-04-10"
+    },
+    "compatibility": {
+      "type": "string",
+      "enum": ["backward", "forward", "full", "none"],
+      "description": "Compatibility guarantee with the previous version of the API.",
+      "example": "backward"
+    },
+    "version_header": {
+      "type": "object",
+      "description": "HTTP header used by clients to pin to this version.",
+      "properties": {
+        "name": { "type": "string", "example": "Stripe-Version" },
+        "value": { "type": "string", "example": "2024-04-10" }
+      }
+    },
+    "breaking_changes": {
+      "type": "array",
+      "description": "List of breaking change identifiers introduced by this version.",
+      "items": { "type": "string" },
+      "example": ["payment_intent.amount_received-removed"]
+    }
+  },
+  "required": ["api", "version", "scheme", "status"]
+}

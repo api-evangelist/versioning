@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/versioning/refs/heads/main/json-structure/versioning-breaking-change-structure.json",
+  "name": "BreakingChange",
+  "description": "A single change between two versions of an API specification, classified by severity and tied to the affected operation, schema, or field.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the change, suitable for referencing in changelogs and migration guides.",
+      "example": "response-property-removed-status"
+    },
+    "from_version": {
+      "type": "string",
+      "description": "Version identifier of the prior specification.",
+      "example": "2024-04-10"
+    },
+    "to_version": {
+      "type": "string",
+      "description": "Version identifier of the new specification.",
+      "example": "2024-10-15"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "breaking",
+        "non-breaking",
+        "unclassified"
+      ],
+      "description": "Severity classification of the change. Maps to oasdiff and Optic conventions.",
+      "example": "breaking"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "endpoint-added",
+        "endpoint-removed",
+        "operation-added",
+        "operation-removed",
+        "request-parameter-added",
+        "request-parameter-removed",
+        "request-parameter-required",
+        "response-property-removed",
+        "response-property-type-changed",
+        "schema-added",
+        "schema-removed",
+        "enum-value-added",
+        "enum-value-removed",
+        "security-scheme-changed",
+        "other"
+      ],
+      "description": "Category of change against the API surface.",
+      "example": "response-property-removed"
+    },
+    "path": {
+      "type": "string",
+      "description": "API path or operation affected by the change.",
+      "example": "/v1/payment_intents/{id}"
+    },
+    "method": {
+      "type": "string",
+      "enum": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE",
+        "HEAD",
+        "OPTIONS",
+        "*"
+      ],
+      "description": "HTTP method affected.",
+      "example": "GET"
+    },
+    "location": {
+      "type": "string",
+      "description": "JSON Pointer or schema location of the change.",
+      "example": "#/components/schemas/PaymentIntent/properties/status"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the change.",
+      "example": "Property status was removed from PaymentIntent response."
+    },
+    "migration": {
+      "type": "string",
+      "description": "Migration guidance for consumers, if any.",
+      "example": "Consumers should read latest_charge.status instead of payment_intent.status."
+    },
+    "detected_by": {
+      "type": "string",
+      "enum": [
+        "oasdiff",
+        "openapi-diff",
+        "optic",
+        "buf",
+        "graphql-inspector",
+        "apollo",
+        "manual",
+        "other"
+      ],
+      "description": "Tool that detected and classified the change.",
+      "example": "oasdiff"
+    }
+  },
+  "required": [
+    "id",
+    "from_version",
+    "to_version",
+    "severity",
+    "category"
+  ]
+}

@@ -1,0 +1,321 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Versioning
+  description: Vocabulary for the API versioning topic, covering API version lifecycle, schema evolution, breaking-change detection, deprecation, and release automation.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Stripe API Versioning
+      namespace: stripe
+      status: active
+    - name: GitHub API Versioning
+      namespace: github
+      status: active
+    - name: Apollo GraphOS Schema Registry
+      namespace: apollo-graphql
+      status: active
+    - name: Buf Schema Registry
+      namespace: buf
+      status: active
+    - name: Apicurio Registry
+      namespace: apicurio
+      status: active
+    - name: Bump.sh
+      namespace: bump-sh
+      status: active
+    - name: Oasdiff
+      namespace: oasdiff
+      status: active
+    - name: Optic
+      namespace: optic
+      status: active
+
+  resources:
+    - name: api-versions
+      description: Released and in-flight versions of an API
+      actions:
+        - list
+        - get
+        - publish
+        - deprecate
+        - sunset
+    - name: breaking-changes
+      description: Detected breaking changes between two API specification versions
+      actions:
+        - diff
+        - classify
+        - list
+    - name: deprecation-records
+      description: Records describing deprecated endpoints, fields, or versions and their sunset timelines
+      actions:
+        - create
+        - list
+        - get
+    - name: schema-registrations
+      description: Registered versions of a schema (Avro, Protobuf, JSON Schema, GraphQL SDL) and their compatibility outcomes
+      actions:
+        - register
+        - check-compatibility
+        - list
+        - get
+    - name: release-notes
+      description: Human-readable changelog entries published against an API or library version
+      actions:
+        - create
+        - list
+        - get
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: publish
+      description: Publish a new API version
+      httpMethod: POST
+      pattern: write
+    - name: deprecate
+      description: Mark a version, endpoint, or field as deprecated
+      httpMethod: POST
+      pattern: write
+    - name: sunset
+      description: Schedule or perform removal of a deprecated version
+      httpMethod: POST
+      pattern: destructive
+    - name: diff
+      description: Compare two specification versions
+      httpMethod: POST
+      pattern: query
+    - name: classify
+      description: Classify a detected change as breaking, non-breaking, or unclassified
+      httpMethod: POST
+      pattern: write
+    - name: register
+      description: Register a new revision of a schema in a registry
+      httpMethod: POST
+      pattern: write
+    - name: check-compatibility
+      description: Check a proposed schema revision against compatibility rules
+      httpMethod: POST
+      pattern: query
+    - name: create
+      description: Create a new resource (deprecation record, release note, etc.)
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: APIVersion
+        description: A single released version of an API
+        properties:
+          - api
+          - version
+          - scheme
+          - status
+          - released_at
+          - deprecated_at
+          - sunset_at
+          - spec_url
+          - changelog_url
+          - compatibility
+          - version_header
+          - breaking_changes
+      - name: BreakingChange
+        description: A classified change between two specification versions
+        properties:
+          - id
+          - from_version
+          - to_version
+          - severity
+          - category
+          - path
+          - method
+          - location
+          - description
+          - migration
+          - detected_by
+      - name: DeprecationRecord
+        description: A record of a deprecated endpoint, field, or version
+        properties:
+          - target
+          - deprecated_at
+          - sunset_at
+          - replacement
+          - notice_url
+      - name: VersionPolicy
+        description: A provider's stated versioning policy
+        properties:
+          - scheme
+          - support_window
+          - deprecation_policy
+          - breaking_change_policy
+
+  enums:
+    version_schemes:
+      - semver
+      - calver
+      - date
+      - integer
+      - custom
+    version_status:
+      - preview
+      - stable
+      - deprecated
+      - sunset
+    change_severity:
+      - breaking
+      - non-breaking
+      - unclassified
+    compatibility_modes:
+      - backward
+      - forward
+      - full
+      - none
+    detection_tools:
+      - oasdiff
+      - openapi-diff
+      - optic
+      - buf
+      - graphql-inspector
+      - apollo
+      - manual
+      - other
+
+capability:
+  workflows:
+    - name: Pre-Merge Breaking Change Gate
+      description: Block pull requests that introduce breaking changes to an OpenAPI or Proto specification without a major version bump
+      apis:
+        - oasdiff
+        - optic
+        - buf
+      personas:
+        - API Producer
+      domains:
+        - Breaking Change Detection
+    - name: Date-Based API Versioning
+      description: Pin client requests to a date-stamped API version via an HTTP header and provide upgrade tooling
+      apis:
+        - stripe
+        - github
+      personas:
+        - API Producer
+        - API Consumer
+      domains:
+        - API Versioning
+    - name: Schema Registry Compatibility
+      description: Register every revision of an event or RPC schema and reject incompatible publications
+      apis:
+        - apollo-graphql
+        - buf
+        - apicurio
+        - confluent
+      personas:
+        - Platform Engineer
+      domains:
+        - Schema Evolution
+    - name: Deprecation and Sunset Notification
+      description: Emit Deprecation and Sunset HTTP headers, publish a sunset timeline, and track consumer migration
+      apis:
+        - sunset-header
+        - stripe
+      personas:
+        - API Producer
+        - API Consumer
+      domains:
+        - Deprecation
+    - name: Automated SemVer Release
+      description: Use Conventional Commits and release automation to compute versions, generate changelogs, and publish releases
+      apis:
+        - changelog
+        - changelog-md
+        - launchnotes
+      personas:
+        - Release Engineer
+      domains:
+        - Release Automation
+
+  personas:
+    - id: api-producer
+      name: API Producer
+      description: Engineers shipping new API versions and managing their lifecycle
+      workflows:
+        - Pre-Merge Breaking Change Gate
+        - Date-Based API Versioning
+        - Deprecation and Sunset Notification
+    - id: api-consumer
+      name: API Consumer
+      description: Developers integrating against an API and upgrading between versions
+      workflows:
+        - Date-Based API Versioning
+        - Deprecation and Sunset Notification
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating schema registries and compatibility gates
+      workflows:
+        - Schema Registry Compatibility
+    - id: release-engineer
+      name: Release Engineer
+      description: Engineers automating versioning, changelogs, and release publication
+      workflows:
+        - Automated SemVer Release
+
+  domains:
+    - name: API Versioning
+      description: Schemes, headers, and policies for communicating API change to consumers
+    - name: Schema Evolution
+      description: Registry-driven versioning of event, RPC, and GraphQL schemas with compatibility rules
+    - name: Breaking Change Detection
+      description: Tools that diff API specifications and classify changes by severity
+    - name: Deprecation
+      description: Practices and headers for signalling that an endpoint or version is going away
+    - name: Release Automation
+      description: Conventional Commits, semantic-release, and changelog tooling for automated releases
+
+crossReference:
+  - resource: api-versions
+    operations:
+      - list
+      - get
+      - publish
+      - deprecate
+      - sunset
+    workflows:
+      - Date-Based API Versioning
+      - Deprecation and Sunset Notification
+    personas:
+      - API Producer
+      - API Consumer
+  - resource: breaking-changes
+    operations:
+      - diff
+      - classify
+      - list
+    workflows:
+      - Pre-Merge Breaking Change Gate
+    personas:
+      - API Producer
+  - resource: schema-registrations
+    operations:
+      - register
+      - check-compatibility
+      - list
+    workflows:
+      - Schema Registry Compatibility
+    personas:
+      - Platform Engineer
+  - resource: release-notes
+    operations:
+      - create
+      - list
+    workflows:
+      - Automated SemVer Release
+    personas:
+      - Release Engineer

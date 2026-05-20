@@ -1,0 +1,13 @@
+{
+  "id": "response-property-removed-status",
+  "from_version": "2024-04-10",
+  "to_version": "2024-10-15",
+  "severity": "breaking",
+  "category": "response-property-removed",
+  "path": "/v1/payment_intents/{id}",
+  "method": "GET",
+  "location": "#/components/schemas/PaymentIntent/properties/status",
+  "description": "Property status was removed from the PaymentIntent response in favor of latest_charge.status.",
+  "migration": "Consumers should read latest_charge.status instead of payment_intent.status. See the 2024-10-15 upgrade guide for the full transition.",
+  "detected_by": "oasdiff"
+}
