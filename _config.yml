@@ -1,0 +1,24 @@
+title: Versioning
+description: An index and topic collection covering API versioning patterns, schema
+  evolution, and breaking-change detection across the API lifecycle. API versioning
+  communicates change to consumers, while schema versioning and diff tooling makes
+  those changes explicit, reviewable, and reversible. This collection brings together
+  versioning approaches like SemVer and CalVer, registry-driven schema evolution platforms
+  (Apollo, Buf, Apicurio, Confluent Schema Registry), spec-diff tools (oasdiff, Optic,
+  Bump.sh, GraphQL Inspector), API documentation versioning (Stoplight, Scalar, Bump.sh),
+  versioning headers and sunsetting practices (Stripe API Versioning, Sunset Header),
+  and dependency-versioning automation (Dependabot, Renovate, Conventional Commits).
+url: https://versioning.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
