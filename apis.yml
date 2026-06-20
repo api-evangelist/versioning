@@ -6,7 +6,7 @@ description: >-
   evolution platforms (Apollo, Buf, Apicurio, Confluent Schema Registry), spec-diff tools (oasdiff, Optic, Bump.sh, GraphQL Inspector), API documentation versioning (Stoplight, Scalar, Bump.sh),
   versioning headers and sunsetting practices (Stripe API Versioning, Sunset Header), and dependency-versioning automation (Dependabot, Renovate, Conventional Commits).
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - API Versioning
 - SemVer
