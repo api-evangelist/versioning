@@ -3,8 +3,6 @@ An index and topic collection covering API versioning patterns, schema evolution
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - API Versioning, SemVer, CalVer, Schema Evolution, Breaking Change, Deprecation, Schema Registry, Spec Diff, Conventional Commits, Sunset Header
