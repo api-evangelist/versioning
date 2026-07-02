@@ -1,0 +1,16 @@
+related:
+- name: Change Log
+  url: https://change-log.apievangelist.com
+  icon: https://change-log.apievangelist.com/icon.png
+  description: An index and topic collection covering developer changelog publishing, release-notes platforms,
+    and API change-tracking services. Change Log services help product, engineering,…
+- name: Deprecation
+  url: https://deprecation.apievangelist.com
+  icon: https://deprecation.apievangelist.com/icon.png
+  description: API deprecation, sunset headers, end-of-life management, and API retirement practices,
+    including RFC 8594 Sunset, the Deprecation header, OpenAPI deprecation flags, and consumer…
+- name: Regulation
+  url: https://regulation.apievangelist.com
+  icon: https://regulation.apievangelist.com/icon.png
+  description: Regulation encompasses the rules, laws, and standards established by governments, agencies,
+    and standards bodies that govern how businesses and individuals must operate. In the…
