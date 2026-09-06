@@ -1,7 +1,8 @@
 ---
-title: What Is Your Beef With JSON Schema?
-link: http://apievangelist.com/2026/02/09/what-is-your-beef-with-json-schema/
-published: '2026-02-09'
+title: OpenAPI Overlays for Filtering One Spec Into Public, Partner, and Internal
+  Audiences
+link: http://apievangelist.com/2026/07/06/openapi-overlays-for-filtering-multiple-audiences/
+published: '2026-07-06'
 provider: programmableweb
 repo: https://github.com/api-evangelist/programmableweb
 domain: apievangelist.com
