@@ -1,7 +1,7 @@
 ---
-title: 'OpenAPI Overlays for SDK Generation Prep: Fixing a Spec Before Codegen'
-link: http://apievangelist.com/2026/07/15/openapi-overlays-for-sdk-generation-prep/
-published: '2026-07-15'
+title: OpenAPI Overlays for Separation of Concerns When You Do Not Own the Spec
+link: http://apievangelist.com/2026/07/18/openapi-overlays-for-separation-of-concerns/
+published: '2026-07-18'
 provider: programmableweb
 repo: https://github.com/api-evangelist/programmableweb
 domain: apievangelist.com
