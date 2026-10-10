@@ -1,7 +1,7 @@
 ---
-title: OpenAPI Overlays for Separation of Concerns When You Do Not Own the Spec
-link: http://apievangelist.com/2026/07/18/openapi-overlays-for-separation-of-concerns/
-published: '2026-07-18'
+title: A Federated API Governance Rule Registry
+link: http://apievangelist.com/2026/07/20/federated-api-governance-rule-registry/
+published: '2026-07-20'
 provider: api-evangelist
 repo: https://github.com/api-evangelist/api-evangelist
 domain: apievangelist.com
