@@ -1,7 +1,7 @@
 ---
-title: VS Code Is Finally Catching Up With JSON Schema 2020-12
-link: http://apievangelist.com/2026/09/17/vs-code-is-finally-catching-up-with-json-schema-2020-12/
-published: '2026-09-17'
+title: Put The LLM On A JSON Schema Leash, And Give Markdown A Vocabulary
+link: http://apievangelist.com/2026/09/22/put-the-llm-on-a-json-schema-leash-and-give-markdown-a-vocabulary/
+published: '2026-09-22'
 provider: api-evangelist
 repo: https://github.com/api-evangelist/api-evangelist
 domain: apievangelist.com
