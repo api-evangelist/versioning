@@ -1,7 +1,7 @@
 ---
-title: How to Publish API Docs from Your OpenAPI Spec in 60 Seconds
-link: https://apinotes.io/blog/publish-openapi-docs-in-60-seconds
-published: '2026-03-04'
+title: 'OpenAPI Diff: The Optic Alternative (2026)'
+link: https://apinotes.io/blog/openapi-diff-detect-breaking-changes-between-api-versions
+published: '2026-04-13'
 provider: apinotes
 repo: https://github.com/api-evangelist/apinotes
 domain: apinotes.io
