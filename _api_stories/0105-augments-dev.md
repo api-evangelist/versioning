@@ -2,7 +2,7 @@
 title: Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here
 link: https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28/
 published: '2026-06-29'
-provider: mcp
-repo: https://github.com/api-evangelist/mcp
+provider: augments-dev
+repo: https://github.com/api-evangelist/augments-dev
 domain: blog.modelcontextprotocol.io
 ---

@@ -1,7 +1,7 @@
 ---
-title: OpenAPI Overlays for Monetization and Plan Tiering From One Spec
-link: http://apievangelist.com/2026/08/08/openapi-overlays-for-monetization-and-plan-tiering/
-published: '2026-08-08'
+title: OpenAPI Overlays for Deprecation and Migration Choreography
+link: http://apievangelist.com/2026/08/14/openapi-overlays-for-deprecation-and-migration-choreography/
+published: '2026-08-14'
 provider: api-evangelist
 repo: https://github.com/api-evangelist/api-evangelist
 domain: apievangelist.com
